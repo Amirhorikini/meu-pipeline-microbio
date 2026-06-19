@@ -1,0 +1,12 @@
+# Ignorar arquivos de dados pesados
+*.fastq
+*.fastq.gz
+*.fasta
+*.fa
+*.bam
+*.sam
+
+# Ignorar pastas de execução do Nextflow
+.nextflow/
+work/
+.nextflow.log*
